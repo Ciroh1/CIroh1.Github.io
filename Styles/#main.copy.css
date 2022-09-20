@@ -24,3 +24,11 @@ a:focus, a:hover {
 header h1 {
     font-size: 175%;
 }
+
+
+.shadow {
+    /*text-shawdow: 2px 2px 2px var(-- global-color}*/
+    text-shadow:  2px 2px 2px rgb(128, 0, 0);
+}
+    
+}
