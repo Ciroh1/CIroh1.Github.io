@@ -18,5 +18,9 @@ body {
     box-shadow: 5px 5px 0 0;
 }
 a:focus, a:hover {
-    
+    font-style: italic;
+    color: orangered;
+}
+header h1 {
+    font-size: 175%;
 }
