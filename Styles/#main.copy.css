@@ -32,4 +32,10 @@ header h1 {
 }
   header h2 {
     font-size: 130%;
+    color: #800000;
+    /*color: var(--global-color-1):*/
+    text-indent: 30px;
+  }
+  header img {
+    float: ;
   }
