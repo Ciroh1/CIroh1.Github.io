@@ -16,7 +16,6 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    margin-left: 10px;
 }
 a:focus,  a:hover{
     font-style: italic;
@@ -30,6 +29,7 @@ header h1{
 header h2{
     font-size: 130%;
    color: #800080;
+   /*color: var(--global-color-1);*/
    text-indent: 30px;
 }
 header img {
