@@ -53,7 +53,7 @@ header h1 {
     font-size: 105%;
     border: 5px double blue;
     border-radius: 20px;
-    box-shadow: 4px 4px 4px red;
+    box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
   }
 
