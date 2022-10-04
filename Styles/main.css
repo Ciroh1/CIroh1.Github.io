@@ -57,10 +57,15 @@ main h3 {
 main nav{
     font-size: 105%;
     margin: 1.5cm 2cm 1.5cm;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
     
 }
 main div.contact{
     margin: 1.5cm 2cm 0cm 2cm;
+    border: ;
 }
 #list {
     line-height: 1.5cm;
