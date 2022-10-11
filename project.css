@@ -2,6 +2,8 @@
 :root {
     --global-color-1: #800000;
 }*/
+
+/* the styles for the elements */
 html{
     background-image: linear-gradient(to left, white 0% , #fafafa 100% );
 }
