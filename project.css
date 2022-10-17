@@ -55,6 +55,9 @@ article {
     column-gap: 2em;
     margin-left: 2em;
 }
+article{
+    display: block;
+}
 article h3 {
     column-span: all;
 }
@@ -80,8 +83,16 @@ footer {
     border-top: 2px solid maroon;
 
 }
-
 Footer p.copyright {
     text-align: center;
     font-size: 80%;
+}
+p.fixed{
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0%;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+    padding: 2em;
 }
