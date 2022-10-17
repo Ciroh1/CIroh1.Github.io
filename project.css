@@ -25,11 +25,8 @@ a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
-header h1 {
-    font-size: 175%;
-    color: #800000;
-    /*color: var(--global-color-1);*/
-    text-indent: 30px;
+header {
+    display: block;
 }
 header img {
     float: left;
@@ -39,6 +36,16 @@ header img {
 .shadow {
     /*text-shawdow: 2px 2px 2px var(-- global-color}*/
     text-shadow:  2px 2px 2px rgb(128, 0, 0);
+}
+header h1{
+    font-size: 175%;
+    color: maroon;
+    text-indent: 30 px;
+}
+header h2{
+    font-size: 130%;
+    color: #800000;
+    text-indent: 30px;
 }
 article {
     width: 70%;
