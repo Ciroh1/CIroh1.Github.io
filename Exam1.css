@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin-left: 10px;
@@ -8,6 +8,7 @@ body{
     margin: 15px auto;
     padding: 15px 1.5em;
 }
+
 #nav_menu ul { list-style-type: none;}
 #nav_menu ul li {float; left; }
 #nav_menu ul Li a {
@@ -27,7 +28,37 @@ header {
     color: blue;
     border-top: 2px solid blue;
 }
+
  #nav_menu {
     display : block
  }
 
+article {
+    clear: left;
+    width: 75%;
+    float: left;
+    column-count: 3;
+    column-rule: 3px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+
+article {
+    display: block;
+}
+
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+article h1{
+    color: blue;
+}
