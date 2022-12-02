@@ -89,7 +89,7 @@ body {
     transform: rotate(-405deg);
     }
     /*----end of menu*/
-    
+
     section a {
         text-decoration: none;
         color: white;
@@ -98,7 +98,7 @@ body {
         text-decoration: underline;
     }
     article{
-        padding: 01em;
+        padding: 0.1em;
     }
     article h2{
         font-size: 1.25em;
