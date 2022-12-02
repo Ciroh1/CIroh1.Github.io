@@ -94,7 +94,7 @@ body {
         text-decoration: none;
         color: white;
     }
-    .menu a:hover,a.current{
+    .menu a:hover, .menu a.current{
         text-decoration: underline;
     }
     article{
