@@ -1,4 +1,7 @@
-html, body {
+html{
+    background-image: linear-gradient(to left, white 0%, white (0, 221, 255) 100%);
+}
+body {
     margin: 0;
     height: 100%;
     font-size: 100%;
@@ -15,7 +18,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #00BAF0;
+    background-color: white;
     background: linear-gradient(to left, #f46b45, #eea849);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
@@ -86,35 +89,42 @@ html, body {
     transform: rotate(-405deg);
     }
     /*----end of menu*/
+    
+    section a {
+        text-decoration: none;
+        color: white;
+    }
 
-section a {
-    text-decoration: none;
-    color: white;
-}
-.menu a:hover,a.current{
-    text-decoration: underline;
-}
-article{
-    padding: 0.1em;
-}
-article h2{
-    font-size: 1.25em;
-}
-article p{
-    font-size: 1em;
-}
-article img{
-    margin:auto;
-    display: block;
-    width:100%;
-    max-width: 760px;
-}
-footer{
-    border-top: 2px solid #f46b45 ;
-    text-align: center;
-    font-size: .8em;
-}
-@media only screen and (max-width:700px){
+    .menu a:hover, .menu a:current {
+        text-decoration: underline;
+    }
+
+    article{
+        padding: 0.1em;
+    }
+    article h2{
+        font-size: 1.25em;
+    }
+
+    article p{
+        font-size: 1em;
+    }
+
+    article img{
+        margin: auto;
+        display: block;
+        width: 100;
+        max-width: 700px;
+        
+    }
+    footer p.CopyRight{
+        border-top: 2px solid #f46b45;
+        text-align: center;
+        font-size: .8em;
+
+    }
+
+@media only screen and (max-width: 700px) {
     .menu-button-container {
         display: flex;
     }
@@ -156,12 +166,14 @@ footer{
     article h2{
         font-size: 1.1em;
     }
+    
     article p{
-        font-size: 0.8em;
+        font-size: .8em;
+
     }
     footer{
-        border-top:1px solid #f46b45;
+        border-top: 1px solid #f46b45;
         text-align: center;
-        font-size: 0.6em;
+        font-size: .6em;
     }
 }
